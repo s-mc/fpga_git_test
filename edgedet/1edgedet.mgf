@@ -1,0 +1,56 @@
+I 000051 55 1126          1409330747823 edgedetect
+(_unit VHDL (edgedetect 0 28 (edgedetect 0 38 ))
+	(_version vb4)
+	(_time 1409330747824 2014.08.29 09:45:47)
+	(_source (\./../src/edgedetect.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 858ad18b84d2d693818a91dfd18281838083868281)
+	(_entity
+		(_time 1409330697694)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_port (_internal clk ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in )(_event))))
+		(_port (_internal signal_in ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_in ))))
+		(_port (_internal output ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_signal (_internal signal_d ~extieee.std_logic_1164.STD_LOGIC 0 39 (_architecture (_uni ))))
+		(_process
+			(line__43(_architecture 0 0 43 (_process (_target(3))(_sensitivity(0)(1))(_dssslsensitivity 1))))
+			(line__50(_architecture 1 0 50 (_assignment (_simple)(_target(2))(_sensitivity(1)(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . edgedetect 2 -1
+	)
+)
+V 000051 55 1126          1409330812287 edgedetect
+(_unit VHDL (edgedetect 0 28 (edgedetect 0 38 ))
+	(_version vb4)
+	(_time 1409330812288 2014.08.29 09:46:52)
+	(_source (\./../src/edgedetect.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 505f535354070346545f440a045754565556535754)
+	(_entity
+		(_time 1409330697694)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_port (_internal clk ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in )(_event))))
+		(_port (_internal signal_in ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_in ))))
+		(_port (_internal output ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_signal (_internal signal_d ~extieee.std_logic_1164.STD_LOGIC 0 39 (_architecture (_uni ))))
+		(_process
+			(line__43(_architecture 0 0 43 (_process (_target(3))(_sensitivity(0)(1))(_dssslsensitivity 1))))
+			(line__50(_architecture 1 0 50 (_assignment (_simple)(_target(2))(_sensitivity(1)(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . edgedetect 2 -1
+	)
+)

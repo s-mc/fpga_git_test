@@ -1,0 +1,25 @@
+timestamp=1409330812373
+
+[edgedetect]
+A/edgedetect=21|./../src/edgedetect.vhd|38|1*1177
+BinI32/edgedetect=3*0
+I=0*508
+I/edgedetect=0*1005
+M=11|0|vb4|1409330697694|./../src/edgedetect.vhd|0*178*0xc5985ffc4d701ac25a73fb6e51fcd836a87f9128|0*423*0x5eebbfaf24833dd780412b1f91e05209
+M/edgedetect=21|0|vb4|1409330812289|./../src/edgedetect.vhd|0*612*0x6d5767b9a039b15828acf2d0e8a56be934c3865e|0*906*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/edgedetect.vhd|28
+Version=9.3.2745.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/edgedetect=9.3.2745.4995  (Windows)|00000003789cd3f5370600015b00b0
+
+[~A]
+ModifyID=11
+Version=73
+
+[~MFT]
+0=8|0edgedet.mgf|1005|0
+1=2|1edgedet.mgf|1177|1177
+3=0|3edgedet.mgf|0|0
+
+[~U]
+edgedetect=11|0*0|
+

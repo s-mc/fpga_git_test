@@ -1,0 +1,13 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+edgedet=1
+Built-in symbols=0
+SPARTAN3E=0
+[COMPILESTATUS|.\src\edgedetect.vhd]
+FileTimeLow=30393256
+Status=Compiled
+[COMPILESTATUS|.\src\edgecheck.asdb]
+FileTimeLow=30393258
+Status=Modified
+[COMPILESTATUS|.\src\edgecheck.awc]
+FileTimeLow=30393258
+Status=Modified

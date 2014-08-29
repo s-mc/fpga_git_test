@@ -1,0 +1,131 @@
+# Design Explorer: Shortcut to "c:\My_Designs\edgedet\edgedet.aws" design added.
+# Design: Warning: Library SPARTAN3E required for the selected device family has not been installed.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Xilinx ISE/WebPack 14.6/14.7 XST VHDL/Verilog
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Xilinx ISE/WebPack 14.6/14.7
+acom -reorder -O3 -work edgedet -2002  $dsn/src/edgedetect.vhd
+# Compile with File Reorder...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\edgedet\src\edgedetect.vhd
+# Compile Entity "edgedetect"
+# Compile Architecture "edgedetect" of Entity "edgedetect"
+# Error: COMP96_0019: edgedetect.vhd : (44, 3): Keyword 'begin' expected.
+# Error: COMP96_0015: edgedetect.vhd : (46, 7): ';' expected.
+# Error: COMP96_0016: edgedetect.vhd : (46, 9): Design unit declaration expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work edgedet -2002  $dsn/src/edgedetect.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\edgedet\src\edgedetect.vhd
+# Compile Entity "edgedetect"
+# Compile Architecture "edgedetect" of Entity "edgedetect"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom  -work edgedet "$dsn\src\edgedetect.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\edgedet\src\edgedetect.vhd
+# Compile Entity "edgedetect"
+# Compile Architecture "edgedetect" of Entity "edgedetect"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+asim +access +r -advdataflow edgedetect
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: For upgrade options please visit our University Program page at www.aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6825 kB (elbread=1023 elab2=5652 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\edgedet\src\wave.asdb
+#  9:46 AM, Friday, August 29, 2014
+#  Simulation has been initialized
+#  Selected Top-Level: edgedetect (edgedetect)
+wave
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/edgedet/src/wave.asdb'.
+wave  /edgedetect/*
+# 4 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: For upgrade options please visit our University Program page at www.aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6825 kB (elbread=1023 elab2=5652 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\edgedet\src\wave.asdb
+#  9:49 AM, Friday, August 29, 2014
+#  Simulation has been initialized
+#  Selected Top-Level: edgedetect (edgedetect)
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/edgedet/src/wave.asdb'.
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: For upgrade options please visit our University Program page at www.aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6825 kB (elbread=1023 elab2=5652 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\edgedet\src\wave.asdb
+#  9:50 AM, Friday, August 29, 2014
+#  Simulation has been initialized
+#  Selected Top-Level: edgedetect (edgedetect)
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/edgedet/src/wave.asdb'.
+run 1 us
+# KERNEL: stopped at time: 1 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: For upgrade options please visit our University Program page at www.aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6825 kB (elbread=1023 elab2=5652 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\edgedet\src\wave.asdb
+#  9:50 AM, Friday, August 29, 2014
+#  Simulation has been initialized
+#  Selected Top-Level: edgedetect (edgedetect)
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/edgedet/src/wave.asdb'.
+run 10 us
+# KERNEL: stopped at time: 10 us
+# Adding file c:\My_Designs\edgedet\src\edgecheck.asdb ... Done
+# Adding file c:\My_Designs\edgedet\src\edgecheck.awc ... Done
+# Adding file c:\My_Designs\edgedet\src\edgecheck.awc ... Done
+#  Simulation has been stopped
+# Adding file c:\My_Designs\edgedet\src\edgecheck.awc ... Done
