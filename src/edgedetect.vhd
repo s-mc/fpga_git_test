@@ -42,7 +42,7 @@ begin
 	-- enter your statements here --
 	process(clk)
 	begin
-	 if clk ='1' and clk'event then
+	 if (rising_edge(clk)) then
 		 signal_d<=signal_in;
 	 end if;
 end process;

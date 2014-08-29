@@ -75,6 +75,6 @@ ADD_HIERARCHY_SIGNALS=0
 [SpecTracer]
 WindowVisible=0
 [HierarchyViewer]
-HierarchyInformation=edgedetect|edgedetect|0 
+HierarchyInformation=edgedetect|edgedetect|0  
 ShowHide=ShowTopLevel
 Selected=
