@@ -1,23 +1,23 @@
-timestamp=1409339931016
+timestamp=1409853592877
 
 [edgedetect]
-A/edgedetect=21|./../src/edgedetect.vhd|38|1*2354
+A/edgedetect=21|./../src/edgedetect.vhd|38|1*3622
 BinI32/edgedetect=3*0
 I=0*508
 I/edgedetect=0*1513
 M=11|0|vb4|1409330697694|./../src/edgedetect.vhd|0*178*0xc5985ffc4d701ac25a73fb6e51fcd836a87f9128|0*423*0x5eebbfaf24833dd780412b1f91e05209
-M/edgedetect=21|0|vb4|1409339930768|./../src/edgedetect.vhd|0*1120*0x9879d321f7a96626d93f9f6c20e082a027aa2072|0*1414*0x856b180bf611ec746a6bfcb1befebd18
+M/edgedetect=21|0|vb4|1409853592503|./../src/edgedetect.vhd|0*1120*0x9879d321f7a96626d93f9f6c20e082a027aa2072|0*1414*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/edgedetect.vhd|28
 Version=9.3.2745.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/edgedetect=9.3.2745.4995  (Windows)|00000003789cd3f5370600015b00b0
 
 [~A]
-ModifyID=17
+ModifyID=23
 Version=73
 
 [~MFT]
-0=14|0edgedet.mgf|1513|508
-1=4|1edgedet.mgf|2354|2354
+0=16|0edgedet.mgf|1513|508
+1=6|1edgedet.mgf|3622|3622
 3=0|3edgedet.mgf|0|0
 
 [~U]
